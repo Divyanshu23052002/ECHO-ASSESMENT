@@ -1,6 +1,7 @@
 # Echo India Website
 
 Welcome to the Echo India website repository! This repository contains the source code for the Echo India website.
+![Screenshot 1](./screenshot1.png)
 
 ## Table of Contents
 - [Description](#description)
