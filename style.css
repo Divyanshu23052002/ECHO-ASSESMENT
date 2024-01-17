@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.login-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.login-header h1 {
+    color: #333;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+button i {
+    margin-right: 10px;
+}
+
+button#continueWithEmail {
+    background-color: #3498db;
+}
+
+button#continueWithEmail:hover {
+    background-color: #2980b9;
+}
+
+button#continueWithMobile {
+    background-color: #27ae60;
+}
+
+button#continueWithMobile:hover {
+    background-color: #219653;
+}
+
+button#continueWithGoogle {
+    background-color: #95a5a6;
+}
+
+/* Disabled button style */
+button#continueWithGoogle:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.right-image img {
+    width: 100%; /* Make the image fill the container */
+    border-radius: 30px;
+    margin-top: 20px; /* Adjusted margin for spacing */
+}
+.disclaimer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 20px; /* Adjusted margin for spacing */
+}
