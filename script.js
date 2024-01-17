@@ -19,7 +19,7 @@ document.getElementById('continueWithEmail').addEventListener('click', function 
 
 document.getElementById('continueWithMobile').addEventListener('click', function () {
     // Replace '[your name]' with your actual name
-    const yourName = 'Your Name';
+    const yourName = 'Divyanshu Bansal';
 
     // Displaying a thank-you message using window.alert
     window.alert('Thank you for choosing mobile, ' + yourName);
